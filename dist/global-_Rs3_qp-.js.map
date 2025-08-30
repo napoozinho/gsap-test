@@ -1,0 +1,1 @@
+{"version":3,"file":"global-_Rs3_qp-.js","sources":["../src/components/global.js"],"sourcesContent":["import { lenis } from '../utils/lenis.js'\n\nexport default function () {\n  lenis.start()\n}\n"],"names":["global","lenis","start"],"mappings":"4EAEe,SAAAA,IACbC,EAAMC,OACR"}

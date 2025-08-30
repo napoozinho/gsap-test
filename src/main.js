@@ -1,8 +1,12 @@
 // Define components with their selectors and import functions
 const components = [
   {
-    selector: "[data-component='example']",
-    importFn: () => import('./components/example.js'),
+    selector: '[data-split-text]',
+    importFn: () => import('./components/split-text.js'),
+  },
+  {
+    selector: '[data-controls]',
+    importFn: () => import('./components/controls.js'),
   },
   // Add more components here
 ]
